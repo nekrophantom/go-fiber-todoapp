@@ -14,6 +14,6 @@ func SetupAPIRoutes(app *fiber.App, db *gorm.DB) {
 	
 	todosGroup := apiGroup.Group("/todos")
 	todosGroup.Get("/", todoController.GetAllTodos)
-
+	todosGroup.Get("/:id", todoController.GetTodoById)
 
 }
