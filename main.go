@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/nekrophantom/go-fiber-todoapp/database"
+	"github.com/nekrophantom/go-fiber-todoapp/routes"
 )
 
 func welcome(c *fiber.Ctx) error {
@@ -16,6 +17,8 @@ func main() {
 	app := fiber.New()
 
 	app.Get("/", welcome)
+
+	routes.SetupAPIRoutes(app, database.DB)
 
 	err := app.Listen("localhost:3000")
 
