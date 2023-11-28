@@ -3,9 +3,14 @@ module github.com/nekrophantom/go-fiber-todoapp
 go 1.21.4
 
 require (
+	github.com/gofiber/fiber/v2 v2.51.0
+	gorm.io/driver/mysql v1.5.2
+	gorm.io/gorm v1.25.5
+)
+
+require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
-	github.com/gofiber/fiber/v2 v2.51.0 // indirect
 	github.com/google/uuid v1.4.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
@@ -18,6 +23,4 @@ require (
 	github.com/valyala/fasthttp v1.50.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/sys v0.14.0 // indirect
-	gorm.io/driver/mysql v1.5.2 // indirect
-	gorm.io/gorm v1.25.5 // indirect
 )
