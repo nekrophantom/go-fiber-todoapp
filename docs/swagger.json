@@ -10,7 +10,7 @@
         },
         "version": "1"
     },
-    "host": "localhost:3000",
+    "host": "https://fiber-todoapp.nekro.dev",
     "basePath": "/api",
     "paths": {
         "/todos": {
