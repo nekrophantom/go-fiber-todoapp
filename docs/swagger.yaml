@@ -23,7 +23,7 @@ definitions:
       updatedAt:
         type: string
     type: object
-host: https://fiber-todoapp.nekro.dev
+host: fiber-todoapp.nekro.dev
 info:
   contact:
     email: reynold@nekro.dev
