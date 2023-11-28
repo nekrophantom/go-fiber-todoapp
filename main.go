@@ -1,8 +1,6 @@
 package main
 
 import (
-	"strings"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/nekrophantom/go-fiber-todoapp/database"
