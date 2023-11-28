@@ -19,7 +19,7 @@ import (
 // @contact.url https://github.com/nekrophantom
 // @contact.email reynold@nekro.dev
 
-// @host localhost:3000
+// @host https://fiber-todoapp.nekro.dev
 // @BasePath /api
 
 func main() {
